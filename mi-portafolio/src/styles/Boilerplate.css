@@ -96,7 +96,7 @@
 .main{
   background-color: #151517;
   color: white;
-  flex: 1;
+  flex-grow: 1;
 
 }
 
