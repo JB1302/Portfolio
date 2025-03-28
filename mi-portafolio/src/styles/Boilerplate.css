@@ -1,0 +1,34 @@
+.boilerplate {
+  width: 100%;
+  
+  display: grid;
+  grid:
+    "header header header" auto
+    "leftSide    main  rightside" 1fr
+    "footer footer footer" / auto 1fr auto;
+  gap : 8px;
+}
+
+.header{ 
+  grid-area: header;
+  background-color: #111116;
+}
+
+.leftSide{
+  background-color: #151517;
+}
+
+.main{
+  background-color: #151517;
+
+}
+
+.rightside{
+  background-color: #151517;
+
+}
+
+.leftSide{ grid-area: leftSide; }
+.main{ grid-area: main; }
+.rightside{ grid-area: rightside; }
+.footer{ grid-area: footer; }
