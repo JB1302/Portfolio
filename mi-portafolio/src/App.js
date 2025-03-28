@@ -5,6 +5,7 @@ function App() {
   return (
     <div>
       <Boilerplate />
+      /* Remover el footer del boiler y agregarla al final de esta seccion */
     </div>
   );
 }
