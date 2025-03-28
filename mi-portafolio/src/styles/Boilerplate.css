@@ -8,18 +8,89 @@
     "footer footer footer" / auto 1fr auto;
   gap : 8px;
   min-height: 100vh;
+
+  background-color: #151517;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.tituloPagina{
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .tituloPagina img {
+    padding: 0.4em 0.8em; /* Ajusta el espaciado interno */
+  }
 }
 
 .header{ 
   grid-area: header;
   background-color: #111116;
   color: white;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; 
 }
 
-.leftSide{
-  background-color: #151517;
-  color: white;
+.headerLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+  margin-left: 1%;
+}
 
+.headerLeft img {
+  margin-left: 5%;
+  width: 10%; /* El ancho será el 50% del contenedor padre */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+
+@media (max-width: 768px) {
+  .headerLeft img {
+    width: 35%;
+    padding: 0.4em 0.8em; /* Ajusta el espaciado interno */
+  }
+}
+
+.headerRight {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+  align-items: center;
+  gap: 2%;
+
+}
+
+
+.btn-primary {
+  font-size: 1.2rem; /* Tamaño predeterminado */
+  padding: 0.5em 1em;
+  background-color: #111116;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: auto;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .btn-primary {
+    font-size: 1rem; /* Reduce el tamaño en pantallas medianas */
+    padding: 0.4em 0.8em; /* Ajusta el espaciado interno */
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-primary {
+    font-size: 0.9rem; /* Reduce aún más el tamaño en pantallas pequeñas */
+    padding: 0.3em 0.6em; /* Ajusta el espaciado interno */
+  }
 }
 
 .main{
@@ -29,11 +100,6 @@
 
 }
 
-.rightside{
-  background-color: #151517;
-  color: white;
-
-}
 
 .footer {
   background-color: #111116;
@@ -46,6 +112,13 @@
   padding-bottom: 25px;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.7rem; /* Reduce el tamaño en pantallas medianas */
+    padding: 2em 0.8em; /* Ajusta el espaciado interno */
+  }
 }
 
 
