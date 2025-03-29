@@ -1,0 +1,66 @@
+.landing{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedorHome{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.landing img{
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  border-radius: 50%;
+}
+
+.landing h1{
+  display: flex;
+  color: #21b6a8;
+}
+
+
+.contenedorIzquierdo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.contenedorIzquierdo p{
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 1% 22%;
+  font-style: italic;
+}
+
+.nombre{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 10px;
+  font-style: normal;
+}
+
+
+.contenedorIzquierdo button {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  margin: 1% 22%;
+  align-self: flex-start;
+
+  border: none;
+  border-radius: 8%;
+  padding: 10px 20px; /* Add padding instead of fixed width/height */
+
+  background-color: #127A99;
+  color: white;
+  font-size: 0.8rem; /* Add font size for better text visibility */
+  cursor: pointer; /* Add pointer cursor on hover */
+}

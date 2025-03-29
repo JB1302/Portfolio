@@ -7,7 +7,7 @@ function Contact() {
             <img src="/imagenes/contact-img.png" alt="Contact" />
         </div>
         <div className="contenedorDerecho">
-            <h1>Contact Me</h1>
+            <h1>Reach Out</h1>
             <p>I'd love to connect with you! Whether you're interested in a collaboration, have a question about my work, or simply want to chat about technology, feel free to reach out.</p>
 
             <h1>How to Reach Me</h1>
