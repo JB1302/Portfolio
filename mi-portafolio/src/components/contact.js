@@ -4,7 +4,7 @@ function Contact() {
   return( 
     <div className="contenedorContact">
         <div className="contenedorIzquierdo">
-            <img src="/imagenes/contact-img.png" alt="Contact" />
+            <img src="./imagenes/contact-img.png" alt="Contact" />
         </div>
         <div className="contenedorDerecho">
             <h1>Reach Out</h1>

@@ -40,7 +40,7 @@ function Projects() {
     
             </div>
             <div className="contenedorDerechoProjects">
-              <img src="/imagenes/projects.png" alt="Home" />
+              <img src="./imagenes/projects.png" alt="Home" />
             </div>
     
           </div>

@@ -23,7 +23,7 @@ function Home() {
 
         </div>
         <div className="contenedorDerecho">
-          <img src="/imagenes/home.png" alt="Home" />
+          <img src="./imagenes/home.png" alt="Home" />
         </div>
 
       </div>

@@ -7,8 +7,7 @@ function Boilerplate() {
     <section className="boilerplate">
       <div className="header">
         <div className="headerLeft">
-        <img src="%PUBLIC_URL%/imagenes/data-engineer.png" alt="Data Engineer" />
-
+          <img src="./imagenes/data-engineer.png" alt="Data Engineer" />
           <div className="tituloPagina">
             <p><strong>Turning Data</strong></p>
             <p><strong>Into Solutions</strong></p>
