@@ -6,15 +6,13 @@ import Contact from "./components/contact";
 import Projects from "./components/projects";
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
-  
   return (
-    <Router basename={basename}>
+    <Router>
       <Routes>
         <Route path="/" element={<Boilerplate />}>
-          <Route index element={<Home />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="projects" element={<Projects />} />
+          <Route index element={<Home />} /> {/* Cambiado a <Home /> */}
+          <Route path="contact" element={<Contact />} /> {/* Cambiado a <Contact /> */}
+          <Route path="projects" element={<Projects />} /> {/* Cambiado a <Projects /> */}
         </Route>
       </Routes>
     </Router>
