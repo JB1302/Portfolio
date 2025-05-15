@@ -6,7 +6,7 @@ import Contact from "./components/contact";
 import Projects from "./components/projects";
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
+  const basename = process.env.NODE_ENV === 'production' ? '/Portfolio/' : '';
 
   return (
     <Router basename={basename}>
