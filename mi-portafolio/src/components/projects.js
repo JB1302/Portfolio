@@ -3,9 +3,9 @@ import "../styles/projects.css"; // Asegúrate de que la ruta sea correcta
 
 function Projects() {
     return( 
-        <div className="landing">
-          <div className="contenedorHome">
-            <div className="contenedorIzquierdoProjects">
+        <div className="projects">
+          <div className="projects__grid">
+            <div className="projects__content">
     
               <h1>VMS: Vehicle Repair</h1>
               <p>Technologies: Java, MySQL, Swing, Concurrent Programming, OOP 
@@ -39,8 +39,8 @@ function Projects() {
 
     
             </div>
-            <div className="contenedorDerechoProjects">
-              <img src="./imagenes/projects.png" alt="Home" />
+            <div className="projects__media">
+              <img src="./imagenes/projects.png" alt="Project showcase" />
             </div>
     
           </div>
