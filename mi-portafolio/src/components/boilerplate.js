@@ -13,11 +13,11 @@ function Boilerplate() {
             <p><strong>Into Solutions</strong></p>
           </div>
         </div>
-        <div className="headerRight">
+        <nav className="headerRight" aria-label="Primary navigation">
           <Link to="/" className="btn btn-primary">HOME</Link>
           <Link to="/contact" className="btn btn-primary">CONTACT</Link>
           <Link to="/projects" className="btn btn-primary">PROJECTS</Link>
-        </div>
+        </nav>
       </div>
       <div className="leftSide"></div>
       <div className="main">
